@@ -14,7 +14,7 @@ function App() {
       
         <Container>
           <div>
-          <p>Probando container</p>
+          <p>Probando el container</p>
           </div>
         </Container>
       
