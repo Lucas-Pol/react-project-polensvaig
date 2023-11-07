@@ -1,7 +1,7 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavBar from "./components/navBar";
-import Container from './components/container';
+import Routing from './components/routing';
 
 function App() {
  
@@ -12,11 +12,10 @@ function App() {
       <NavBar/>
     </div>
       
-        <Container>
-          <div>
-          <p>Probando el container</p>
-          </div>
-        </Container>
+        <div className='container mt-3'>
+          <Routing/>
+          
+        </div>
       
     </>
   )
